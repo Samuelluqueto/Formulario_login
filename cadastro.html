@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <h1>Cadastro</h1>
+
+    <form action="cadastro.php" method="POST">
+
+        <label><b>Nome</b></label>
+        <input type="text" name="nome" required>
+        <br>
+        <label><b>Data de nascimento</b></label>
+        <input type="date" name="data" required>
+        <br>
+        <label><b>Função</b></label>
+        <input type="text" name="funcao" required>
+        <br>
+        <label><b>Salário</b></label>
+        <input type="number" name="salario" required>
+        <br>
+        <label><b>Nome de usuario:</b></label>
+        <input type="text" name="usuario" required>
+        <br>
+        <label><b>Senha</b></label>
+        <input type="password" name="senha" required>
+        <br>
+        <br>
+        <button type="submit">Login</button>
+    </form>
+</body>
+
+</html>
